@@ -13,4 +13,20 @@
 .footer-wrap {
   height: 100vh;
 }
+.container {
+  border: 2px solid rgb(208, 201, 201);
+  width: 80%;
+  margin: 0 auto;
+  height: 120px;
+  border-radius: 12px 12px;
+}
+.fadein {
+  opacity: 0;
+  transition: all 1.5s;
+  transform: translate(0, 100px);
+}
 
+.fadein.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
